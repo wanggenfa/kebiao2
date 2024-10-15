@@ -4,94 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2022级数字媒体技术（专升本）5班</title>
-    <style>
-        td {
-            text-align: center;
-            font-size: 15px;
-            padding: 1px;
-        }
-        th {
-            font-size: 20px;
-        }
-        p {
-            text-align: center;
-            font-size: 35px;
-            font-weight: bold;
-        }
-        body {
-	    background-image: url("https://wanggenfa.github.io/kebiao2/1.jpg");
-            background-attachment: fixed;
-            background-size: cover;
-            background-position: center center;
-        }
-
-        #tt {
-            font-size: 25px;
-            font-weight: bold;
-        }
-        .hidden {
-            display: none;
-        }
-        #week-select {
-            margin: 20px auto;
-            text-align: center;
-            font-size: 22px;
-        }
-        #week {
-            font-size: 22px;
-        }
-        .course1, .course2, .course3, .course4, .course5, .course6 {
-            padding: 20px;
-            border-radius: 20px;
-            margin: 5px 0;
-        }
-		.course7, .course8, .course9, .course10{
-			padding: 20px;
-			border-radius: 20px;
-			margin: 5px 0;
-		}
-        .course1 {
-            background-color: rgba(255, 204, 204, 0.8); /* 浅红色 */
-        }
-        .course2 {
-            background-color: rgba(204, 255, 204, 0.8); /* 浅绿色 */
-        }
-        .course3 {
-            background-color: rgba(204, 204, 255, 0.8); /* 浅蓝色 */
-        }
-        .course4 {
-            background-color: rgba(255, 255, 204, 0.8); /* 浅黄色 */
-        }
-        .course5 {
-            background-color: rgba(228, 255, 215, 0.8); 
-        }
-        .course6 {
-            background-color: rgba(226, 242, 255, 0.8); 
-        }
-		.course7 {
-		    background-color: rgba(233, 225, 255, 0.8); 
-		}
-		.course8 {
-		    background-color: rgba(255, 230, 251, 0.8); 
-		}
-		.course9 {
-		    background-color: rgba(238, 255, 243, 0.8); 
-		}
-		.course10 {
-		    background-color: rgba(255, 246, 228, 0.8); 
-		}
-        .t1 {
-            margin: 2px;
-            font-size: 18px;
-            font-weight: normal;
-        }
-	 @media only screen and (max-width: 600px) {
-            body {
-                background-size: contain; /* 保证图片在小屏设备上完整显示 */
-                background-position: center center; /* 居中显示背景图片 */
-                background-repeat: no-repeat; /* 禁止背景图片重复 */
+     <style>
+            td {
+                text-align: center;
+                font-size: 15px;
+                padding: 1px;
             }
-    </style>
+            th {
+                font-size: 20px;
+            }
+            p {
+                text-align: center;
+                font-size: 35px;
+                font-weight: bold;
+            }
+            body {
+                background-image: url("https://wanggenfa.github.io/kebiao2/1.jpg");
+                background-attachment: fixed;
+                background-size: 100vw auto; /* 保证宽度适应屏幕，按比例缩放 */
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+            #tt {
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .hidden {
+                display: none;
+            }
+            #week-select {
+                margin: 20px auto;
+                text-align: center;
+                font-size: 22px;
+            }
+            #week {
+                font-size: 22px;
+            }
+            .course1, .course2, .course3, .course4, .course5, .course6 {
+                padding: 20px;
+                border-radius: 20px;
+                margin: 5px 0;
+            }
+            .course7, .course8, .course9, .course10{
+                padding: 20px;
+                border-radius: 20px;
+                margin: 5px 0;
+            }
+            .course1 {
+                background-color: rgba(255, 204, 204, 0.8); /* 浅红色 */
+            }
+            .course2 {
+                background-color: rgba(204, 255, 204, 0.8); /* 浅绿色 */
+            }
+            .course3 {
+                background-color: rgba(204, 204, 255, 0.8); /* 浅蓝色 */
+            }
+            .course4 {
+                background-color: rgba(255, 255, 204, 0.8); /* 浅黄色 */
+            }
+            .course5 {
+                background-color: rgba(228, 255, 215, 0.8); 
+            }
+            .course6 {
+                background-color: rgba(226, 242, 255, 0.8); 
+            }
+            .course7 {
+                background-color: rgba(233, 225, 255, 0.8); 
+            }
+            .course8 {
+                background-color: rgba(255, 230, 251, 0.8); 
+            }
+            .course9 {
+                background-color: rgba(238, 255, 243, 0.8); 
+            }
+            .course10 {
+                background-color: rgba(255, 246, 228, 0.8); 
+            }
+            .t1 {
+                margin: 2px;
+                font-size: 18px;
+                font-weight: normal;
+            }
+    
+            /* 媒体查询：当屏幕宽度小于600px时应用以下样式 */
+            @media only screen and (max-width: 600px) {
+                body {
+                    background-size: 100vw auto; /* 适应屏幕宽度并保持高度按比例缩放 */
+                    background-position: center center; /* 居中显示背景图片 */
+                    background-repeat: no-repeat; /* 禁止背景图片重复 */
+                }
+            }
+        </style>
 </head>
 <body>
 <p>2022级数字媒体技术（专升本）5班2024-2025-1课表</p>
