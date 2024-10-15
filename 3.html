@@ -19,10 +19,12 @@
             font-weight: bold;
         }
         body {
-            background-image: url("https://wanggenfa.github.io/kebiao2/1.jpg");
+	    background-image: url("https://wanggenfa.github.io/kebiao2/1.jpg");
             background-attachment: fixed;
-	    background-size:cover;
+            background-size: cover;
+            background-position: center center;
         }
+
         #tt {
             font-size: 25px;
             font-weight: bold;
@@ -83,6 +85,12 @@
             font-size: 18px;
             font-weight: normal;
         }
+	 @media only screen and (max-width: 600px) {
+            body {
+             background-size: contain; /* 在小屏设备上，使用 contain 以确保整个图片都能显示 */
+             background-position: center top; /* 可以调整位置 */
+                 }
+             }
     </style>
 </head>
 <body>
